@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        //배열 데이터 가져오기
+        const arr6 = [100.200, 300, 400, 500, 600, 700, 800, 900]
+    
+        document.write(arr6[0], "<br>");
+        document.write(arr6[1], "<br>");
+        document.write(arr6[2], "<br>");
+        document.write(arr6[3], "<br>");
+        document.write(arr6[4], "<br>");
+        document.write(arr6[5], "<br>");
+        document.write(arr6[6], "<br>");
+        document.write(arr6[7], "<br>");
+        document.write(arr6[8], "<br>");
+        document.write(arr6[9], "<br>");
+
+        //for문
+
+    for(let i=0; i<arr6.length; i++){
+            document.write(arr6[i],"<br>");
+        }
+        //i=0  0<5 document.write(arr6[0])-->100
+        //i=0  1<5 document.write(arr6[1])-->200
+        //i=0  2<5 document.write(arr6[0])-->300
+        //i=0  3<5 document.write(arr6[0])-->400
+        //i=0  4<5 document.write(arr6[0])-->500
+        //i=0  5<5 
+
+        document.write("<br>""<br>");
+
+        //forEach
+        const arr7 = [100,200,300,400,500,];
+        
+        arr7.forEach(function(elem)
+
+        arr7.forEach(function)(Element, index,array){
+            document.write(Element,"<br>");
+            document.write(index,"<br>");
+            document.write(array,"<br>");
+        })
+
+        //map
+        const arr8 = [100,200,300,400,500];
+
+        arr8.map(function(elem){
+            document.write(elem)
+        });
+    </script>
+</body>
+</html>
